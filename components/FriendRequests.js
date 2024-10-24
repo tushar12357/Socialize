@@ -33,7 +33,7 @@ const FriendRequests = ({ item, friendRequests, setFriendRequests }) => {
             console.log("Error accepting friend request", error);
         }
     };
-
+console.log(NGROK_URL)
   return (
     <Pressable
       style={{

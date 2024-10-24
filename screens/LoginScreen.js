@@ -47,6 +47,7 @@ const LoginScreen = () => {
       console.log("Error",err)
     })
     }
+    console.log(NGROK_URL)
   return (
     <View
       style={{

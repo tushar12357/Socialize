@@ -28,6 +28,7 @@ const FriendsScreen = () => {
         }
     }
     console.log(friendRequests)
+    console.log(NGROK_URL)
   return (
     <View style={{padding:10, marginHorizontal:12}}>
         {friendRequests.length>0 && <Text>You have {friendRequests.length} friend requests</Text>}

@@ -46,6 +46,7 @@ const HomeScreen = () => {
     fetchUsers()
   },[])
 console.log("Users",users)
+console.log("NGROK",NGROK_URL)
   return (
     <View>
         <View style={{padding:10}}>

@@ -40,6 +40,7 @@ const RegisterScreen = () => {
         Alert.alert("Registration failed", "Please try again");
       });
   };
+  console.log(NGROK_URL)
   return (
     <View
       style={{

@@ -128,7 +128,7 @@ const User = ({ item }) => {
             Add Friend
           </Text>
         </Pressable>
-      )}
+       )} 
     </Pressable>
   );
 };

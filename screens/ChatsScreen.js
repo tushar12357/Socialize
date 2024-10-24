@@ -27,6 +27,7 @@ const ChatsScreen = () => {
     acceptedFriendsList();
   }, []);
   console.log("Friends", acceptedFriends);
+  console.log("NGROK",NGROK_URL)
   return (
     <ScrollView showsVerticalScrollIndicator={false}>
         {acceptedFriends.map((item, index) => (

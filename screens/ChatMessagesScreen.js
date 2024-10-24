@@ -237,7 +237,16 @@ const ChatMessagesScreen = () => {
       setSelectedMessages((prevMessages) => [...prevMessages, message._id]);
     }
   };
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     fetchMessages();
+  //   }, 500); // Poll every 5 seconds
+  
+  //   return () => clearInterval(interval); // Cleanup the interval on component unmount
+  // }, []);
+  
   console.log("Messages", selectedMessages);
+  console.log("NGROK",NGROK_URL)
   return (
     <KeyboardAvoidingView style={{ flex: 1, backgroundColor: "#F0F0F0" }}>
       <ScrollView ref={scrollViewRef} contentContainerStyle={{flexGrow:1}} onContentSizeChange={handleContentSizeChange}>

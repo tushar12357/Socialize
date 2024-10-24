@@ -38,6 +38,7 @@ const UserChat = ({item}) => {
     const options = { hour: "numeric", minute: "numeric" };
     return new Date(time).toLocaleString("en-US", options);
   };
+  console.log(NGROK_URL)
   return (
     <Pressable 
     onPress={()=>navigation.navigate("Messages",{
